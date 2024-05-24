@@ -24,7 +24,7 @@ export function LampDemo() {
         </motion.div>
       </LampContainer>
         <h1 className="heading mt-5">
-            more about {' '}
+            More about {' '}
             <span className='text-purple'>Me
             </span>
         </h1>

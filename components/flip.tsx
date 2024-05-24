@@ -2,7 +2,7 @@ import React from "react";
 import { FlipWords } from "./ui/flipWords";
 
 export function FlipWordsDemo() {
-  const words = ["better", "modern", "eligent"];
+  const words = ["better", "modern", "elegant"];
 
   return (
     <div
@@ -19,7 +19,7 @@ export function FlipWordsDemo() {
             <span className="text-lg sm:text-2xl ">A bit about me</span>
             <div className="text-base sm:text-xl mt-2">
               I am a full-stack developer specializing in building (and occasionally designing) 
-              <FlipWords words={words} /> digital experiences. Currently, I&quot;m focused on building responsive full
+              <FlipWords words={words} /> digital experiences. Currently, I am focused on building responsive full
               stack web applications along with continuously progressing with multiple Java projects.
             </div>
             
