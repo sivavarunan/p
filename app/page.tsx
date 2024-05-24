@@ -1,16 +1,12 @@
-import Clients from "@/components/Clients";
+
 import Hero from "@/components/Hero";
-import RecentProjects from "@/components/RecentProjects";
 import Grid from "@/components/ui/Grid";
 import { navItems } from "@/components/ui/data";
 import { FloatingNav } from "@/components/ui/floatingNav";
-import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
-import { FlipWordsDemo } from "@/components/flip";
-
-
-
+import { LampDemo } from "@/components/tubelight";
+import ThreeDCardDemo from "@/components/3dcard";
 
 export default function Home() {
   return (
@@ -18,11 +14,9 @@ export default function Home() {
       <div className="max-w-7xl w-full">
     <FloatingNav navItems={navItems}/>
     <Hero />
+    <LampDemo />
     <Grid />
-    <FlipWordsDemo />
-    <RecentProjects />  
-    <Clients />
-    <Experience/>
+    <ThreeDCardDemo />
     <Approach />
     <Footer />
   </div>

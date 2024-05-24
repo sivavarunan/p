@@ -1,6 +1,6 @@
 "use client";
-import React from "react";
 
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvasReavelEffect";
 
@@ -15,14 +15,14 @@ const Approach = ()=> {
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card title="Planning & Stratagy" icon={<AceternityIcon order="Phase 1" />}
-        description="fortnite battle pass">
+        description="In software development, I believe that planning and strategy are crucial for delivering high-quality products on time and within budget. For me, effective planning means defining clear objectives, understanding user requirements, and outlining the project scope. My strategy includes selecting the right development methodology, like Agile or Waterfall, and ensuring cohesive teamwork and communication. It also involves managing risks, allocating resources, and continuously evaluating to adapt and improve processes. By meticulously planning and strategizing, I can enhance productivity, mitigate potential issues, and achieve successful project outcomes.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
         <Card title="Devolopment & progress upadate" icon={<AceternityIcon order="Phase 2" />}
-        description="tilted towers">
+        description="For me, development and progress updates in software projects are vital for maintaining transparency and ensuring alignment with project goals. Regular updates mean tracking milestones, assessing completed tasks, and identifying any roadblocks or deviations from the plan. These updates help me monitor the project's trajectory, facilitate timely interventions, and make necessary adjustments. By consistently communicating progress, I can keep stakeholders informed, manage expectations, and foster a collaborative environment. This practice not only enhances accountability but also drives continuous improvement and successful project delivery.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -32,11 +32,9 @@ const Approach = ()=> {
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade
-          <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card title="Devolopment & launch" icon={<AceternityIcon order="Phase 3" />}
-        description="paradise palms">
+        description="These are crucial in the software development lifecycle, demanding careful planning and execution. In the development phase, my team and I focus on translating requirements into functional code, performing thorough testing, and resolving any bugs. At the same time, we start preparing for the launch by finalizing documentation, setting up infrastructure, and planning marketing strategies. Launching involves deploying the software to production environments, ensuring a seamless transition from development to live operation. This phase represents the culmination of our efforts to deliver a polished product to end-users while meeting timelines and quality standards. Coordinating development and launch phases effectively is key to a successful rollout that satisfies user needs and organizational goals.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
