@@ -83,7 +83,7 @@ export const navItems = [
       title: "MelodyHub",
       des: "A website built for the musical needs.",
       img: "/melodyhub.png",
-      iconLists: ["/html5.png", "/css.png", "/js.png"],
+      iconLists: ["/html5.png", "/css.png", "/JS.png"],
       link: "",
     },
 
