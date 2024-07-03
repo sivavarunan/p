@@ -68,26 +68,26 @@ export const navItems = [
     },
   ];
   
-  export const projects = [
-    {
-      id: 1,
-      title: "Matrix",
-      des: "An Online learning platform.",
-      img: "/matrix.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-      link: "",
-    },
-  
-    {
-      id: 2,
-      title: "MelodyHub",
-      des: "A website built for the musical needs.",
-      img: "/melodyhub.png",
-      iconLists: ["/html5.png", "/css.png", "/JS.png"],
-      link: "",
-    },
 
-  ];
+export const projects = [
+  {
+    id: 1,
+    title: "Matrix",
+    des: "An Online learning platform.",
+    img: "/matrix.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "",
+  },
+  {
+    id: 2,
+    title: "FurniFrency",
+    des: "A website built for the Furniture needs.",
+    img: "/furnifrency.png",
+    iconLists: ["/html5.png", "/css.png", "/JS.png"],
+    link: "https://sivavarunan.github.io/furniture-website/page.html",
+  },
+];
+
   
   
   export const socialMedia = [
