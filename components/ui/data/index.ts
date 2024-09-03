@@ -75,7 +75,7 @@ export const projects = [
     title: "DOOM",
     des: "A web app built for connectivity and communication.",
     img: "/doom.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg","/fireb.svg"],
     link: "https://doom-mocha-delta.vercel.app/",
   },
   {
@@ -101,6 +101,14 @@ export const projects = [
     des: "An Online learning platform.",
     img: "/matrix.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "",
+  },
+  {
+    id: 5,
+    title: "Beauty Store Project",
+    des: "One spot for all beauty needs.",
+    img: "/beauty.png",
+    iconLists: ["/react.svg","/nodejs.svg", "/css.png", "/ts.svg"],
     link: "",
   },
 ];
