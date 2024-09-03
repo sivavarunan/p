@@ -1,17 +1,30 @@
+"use client"
 import React from 'react';
 import Image from 'next/image';
 import { projects } from './ui/data';
 import { CardBody, CardContainer, CardItem } from './ui/3d-card';
 
 const ThreeDCardComp = () => {
+  const handleCardClick = (link:any) => {
+    if (link) {
+      window.open(link, '_blank');
+    }
+  };
+
   return (
     <div className='py-20' id='projects'>
       <h1 className="heading">
         A small selection of <span className='text-purple'>Recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-10 gap-y-3 mt-6">
-        {projects.map(({ id, title, des, img, iconLists }) => (
-          <div key={id} className="lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[41rem]">
+        {projects.map(({ id, title, des, img, iconLists, link }) => (
+          <div 
+            key={id} 
+            className="lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[41rem]" 
+            onClick={() => handleCardClick(link)}
+            role="button" 
+            tabIndex={0}
+          >
             <CardContainer className="inter-var">
               <CardBody className="bg-gray-50 relative group hover:shadow-2xl hover:shadow-emerald-500/[0.1] dark:bg-black dark:bg-opacity-25 dark:border-white/[0.4] border-black/[0.4] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                 <div className="relative flex items-center justify-center w-full h-64">
