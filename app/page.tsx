@@ -5,8 +5,8 @@ import { navItems } from "@/components/ui/data";
 import { FloatingNav } from "@/components/ui/floatingNav";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
-import { LampDemo } from "@/components/tubelight";
-import ThreeDCardDemo from "@/components/3dcard";
+import { LampComp } from "@/components/tubelight";
+import ThreeDCardComp from "@/components/3dcard";
 
 export default function Home() {
   return (
@@ -14,9 +14,9 @@ export default function Home() {
       <div className="max-w-7xl w-full">
     <FloatingNav navItems={navItems}/>
     <Hero />
-    <LampDemo />
+    <LampComp />
     <Grid />
-    <ThreeDCardDemo />
+    <ThreeDCardComp />
     <Approach />
     <Footer />
   </div>

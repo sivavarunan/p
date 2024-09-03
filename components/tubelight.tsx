@@ -4,7 +4,7 @@ import { LampContainer } from './ui/lamp'
 import { motion } from "framer-motion";
 import { FlipWordsDemo } from "@/components/flip";
 
-export function LampDemo() {
+export function LampComp() {
   return (
     <div className="flex flex-col items-center justify-center mt-5 p-4"id="about">
       <LampContainer className="w-full max-w-4xl px-4 mt-3">

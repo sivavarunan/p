@@ -86,6 +86,22 @@ export const projects = [
     iconLists: ["/html5.png", "/css.png", "/JS.png"],
     link: "https://sivavarunan.github.io/furniture-website/page.html",
   },
+  {
+    id: 3,
+    title: "My Website",
+    des: "A website built to Showcase About Me.",
+    img: "/myweb.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://my-website-umber-iota.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "DOOM",
+    des: "A web app built for connectivity and communication.",
+    img: "/doom.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://doom-mocha-delta.vercel.app/",
+  },
 ];
 
   

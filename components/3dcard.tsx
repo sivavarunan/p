@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { projects } from './ui/data';
 import { CardBody, CardContainer, CardItem } from './ui/3d-card';
 
-const ThreeDCardDemo = () => {
+const ThreeDCardComp = () => {
   return (
     <div className='py-20' id='projects'>
       <h1 className="heading">
@@ -13,7 +13,7 @@ const ThreeDCardDemo = () => {
         {projects.map(({ id, title, des, img, iconLists }) => (
           <div key={id} className="lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[41rem]">
             <CardContainer className="inter-var">
-              <CardBody className="bg-gray-50 relative group hover:shadow-2xl hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+              <CardBody className="bg-gray-50 relative group hover:shadow-2xl hover:shadow-emerald-500/[0.1] dark:bg-black dark:bg-opacity-25 dark:border-white/[0.4] border-black/[0.4] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
                 <div className="relative flex items-center justify-center w-full h-64">
                   <CardItem translateZ="100" className="w-full mt-4">
                     <Image src={img} alt={title} objectFit='cover' height={1000} width={1000} className="h-60 w-full object-cover rounded-xl group-hover:shadow-xl" />
@@ -46,4 +46,4 @@ const ThreeDCardDemo = () => {
   );
 };
 
-export default ThreeDCardDemo;
+export default ThreeDCardComp;
