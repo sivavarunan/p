@@ -80,6 +80,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "E-Commerce Website",
+    des: "An ecommerce website with unique look.",
+    img: "/ecommerce.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "http://ecommerce-website-swart-xi.vercel.app/",
+  },
+  {
+    id: 3,
     title: "FurniFrency",
     des: "A website built for the Furniture needs.",
     img: "/furnifrency.png",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://sivavarunan.github.io/furniture-website/page.html",
   },
   {
-    id: 3,
+    id: 4,
     title: "My Website",
     des: "A website built to Showcase About Me.",
     img: "/myweb.png",
@@ -96,7 +104,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Matrix",
     des: "An Online learning platform.",
     img: "/matrix.png",
@@ -104,7 +112,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "Beauty Store Project",
     des: "One spot for all beauty needs.",
     img: "/beauty.png",
