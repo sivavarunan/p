@@ -7,6 +7,7 @@ import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import { LampComp } from "@/components/tubelight";
 import ThreeDCardComp from "@/components/3dcard";
+import { About } from "@/components/about";
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <div className="max-w-7xl w-full">
     <FloatingNav navItems={navItems}/>
     <Hero />
-    <LampComp />
+    <About/>
+    {/* <LampComp /> */}
     <Grid />
     <ThreeDCardComp />
     <Approach />
