@@ -88,6 +88,14 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Wandarar",
+    des: "Insights & Inspirations:Your Go-To Blog for Ideas",
+    img: "/wandarar.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://my-app-red-zeta.vercel.app",
+  },
+  {
+    id: 4,
     title: "FurniFrency",
     des: "A website built for the Furniture needs.",
     img: "/furnifrency.png",
@@ -95,7 +103,7 @@ export const projects = [
     link: "https://sivavarunan.github.io/furniture-website/page.html",
   },
   {
-    id: 4,
+    id: 5,
     title: "My Website",
     des: "A website built to Showcase About Me.",
     img: "/myweb.png",
@@ -104,7 +112,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Matrix",
     des: "An Online learning platform.",
     img: "/matrix.png",
@@ -112,13 +120,14 @@ export const projects = [
     link: "",
   },
   {
-    id: 6,
+    id: 7,
     title: "Beauty Store Project",
     des: "One spot for all beauty needs.",
     img: "/beauty.png",
     iconLists: ["/react.svg","/nodejs.svg", "/css.png", "/ts.svg"],
     link: "",
   },
+
 ];
 
 
