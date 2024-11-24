@@ -29,8 +29,8 @@ export function About() {
           <div className="h-auto flex flex-col justify-center sm:px-8 px-5">
             <div className="flex flex-col sm:flex-row items-start sm:items-center">
               <div className="sm:w-2/3 text-xl sm:text-3xl font-bold text-neutral-100 dark:text-neutral-400 sm:mb-0 mb-4">
-                <span className="text-lg sm:text-2xl">A Bit About <span className="text-purple">Me</span></span>
-                <div className="text-base sm:text-xl mt-2">
+                <span className="text-lg text-center sm:text-2xl">A Bit About <span className="text-purple">Me</span></span>
+                <div className="text-center sm:text-xl mt-2 ">
                   I am a full-stack developer specializing in building (and occasionally designing) 
                   <FlipWords words={words} /> digital experiences. Currently, I am focused on building responsive full
                   stack web applications along with continuously progressing with multiple Java projects.

@@ -68,7 +68,6 @@ export const gridItems = [
   },
 ];
 
-
 export const projects = [
   {
     id: 1,
@@ -127,10 +126,7 @@ export const projects = [
     iconLists: ["/react.svg","/nodejs.svg", "/css.png", "/ts.svg"],
     link: "",
   },
-
 ];
-
-
 
 export const socialMedia = [
   {
