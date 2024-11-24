@@ -148,9 +148,4 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/thevarasa-sivavarunan-832b16294/"
   },
-  {
-    id: 3,
-    img: "/discord.svg",
-    link: "https://www.discord.com/users/512060092817080321/"
-  },
 ];
