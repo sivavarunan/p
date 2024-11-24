@@ -10,8 +10,8 @@ export function About() {
     <div className='pt-40'>
     <div className="flex flex-col items-center justify-center pb-20 pt-36 px-4" id="about">
       <motion.div
-        initial={{ opacity: 0.5, y: -20 }}
-        whileInView={{ opacity: 1, y: -150 }}
+        initial={{ opacity: 0.5, y: -40 }}
+        whileInView={{ opacity: 1, y: -200 }}
         transition={{
           delay: 0.3,
           duration: 0.8,
@@ -20,10 +20,10 @@ export function About() {
         className="text-left w-full max-w-4xl"
       >
         <div
-          className="border border-black-200 p-5 rounded-3xl"
+          className="border border-black-200 px-30 py-14 rounded-2xl"
           style={{
             background: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-            boxShadow: "0 0 20px 10px rgba(128, 0, 128, 0.2)",
+            boxShadow: "0 0 20px 10px rgba(152, 97, 250, 0.5)",
           }}
         >
           <div className="h-auto flex flex-col justify-center sm:px-8 px-5">
